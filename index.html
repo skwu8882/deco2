@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mobile Website with DMXzone Lightbox and DMXzone Google Maps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script type="text/javascript" src="ScriptLibrary/jquery-latest.pack.js"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<!--[if IE]><script type="text/javascript" src="dmx/lib/excanvas-compressed.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="dmx/widgets/Lightbox/styles/default/style.css" />
+<script type="text/javascript" src="dmx/dmx.core.js"></script>
+<script type="text/javascript" src="dmx/widgets/Lightbox/dmx.lightbox.js"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header" data-theme="c">
+		<h1>Lux Decor</h1>
+        <img src="images/914x374-slider2.jpg" width="100%" />
+	</div>
+	<div data-role="content">
+
+	  <ul data-role="listview" data-inset="true">
+	    <li><a href="#page2">
+	      <h3>About</h3>
+	      <p>Learn more about us</p>
+	      </a></li>
+	    <li><a href="#page3">
+	      <h3>Gallery</h3>
+	      <p>Check out the products gallery</p>
+	      </a></li>
+	    <li><a data-ajax="false" href="location.html">
+	      <h3>Location</h3>
+	      <p>View our location on the map</p>
+	      </a></li>
+      </ul>	
+				
+	</div>
+	<div data-role="footer" data-theme="d">
+		<h4>Contact us: (555) 555-555-555</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<a data-rel="back" data-icon="home" data-iconpos="notext">Home</a>
+		<h1>About Us</h1>
+	</div>
+	<div data-role="content"><p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc erat, id sollicitudin nibh. Nullam metus metus, facilisis non pellentesque vitae, blandit nec enim. Phasellus nec egestas justo. Proin in ipsum lacus, ac lobortis magna. Morbi vitae mollis nunc. Vestibulum id semper ante. Morbi pulvinar mauris lectus. Phasellus suscipit mauris nec nisl tempor feugiat. Aenean sed velit nisl, nec venenatis lectus. Quisque velit tortor, laoreet quis tincidunt eu, vehicula et enim. Curabitur iaculis, turpis ut gravida viverra, nulla mi sodales lectus, a feugiat erat nulla at metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum dignissim ante in eros vulputate bibendum. Donec in feugiat mi.</p>
+<p>
+Morbi ut augue et ipsum pellentesque accumsan commodo pellentesque elit. Cras tempus facilisis augue, eu pulvinar arcu dignissim eu. Aliquam erat volutpat. Suspendisse potenti. Proin dictum, nisi eu faucibus blandit, ante nunc tincidunt elit, at interdum nisl sem adipiscing nulla. Nulla pulvinar facilisis risus id ullamcorper. Nunc non augue ut augue vehicula egestas. Quisque commodo lacus quis orci feugiat in pharetra eros molestie. Mauris placerat, justo vel varius fermentum, orci nunc malesuada enim, imperdiet euismod elit elit at enim. Curabitur nulla tellus, tincidunt imperdiet aliquet eu, vestibulum eget justo. Duis mi turpis, egestas quis consequat sed, rhoncus et leo. Nam in nibh vel est adipiscing tempus a a sem. Curabitur dictum, ante quis faucibus consequat, neque erat tincidunt dui, vitae mollis diam nulla non purus. Aenean imperdiet nulla sodales nisi posuere ac iaculis odio lacinia. </p>
+    </div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    		<a data-rel="back" data-icon="home" data-iconpos="notext">Home</a>
+		<h1>Products Gallery</h1>
+	</div>
+	<div data-role="content"><a href="images/products/resized/InteriorWallpapers-21.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-21.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-22.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-22.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-23.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-23.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-28.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-28.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-29.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-29.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-30.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-30.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-31.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-31.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-34.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-34.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-36.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-36.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-37.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-37.jpg" width="100" height="100" alt="" border="0" /></a> <a href="images/products/resized/InteriorWallpapers-38.jpg" title="" rel="dmxLightbox" rev="{group: 'products', preset: 'simple'}"><img src="images/products/resized/thumbs/InteriorWallpapers-38.jpg" width="100" height="100" alt="" border="0" /></a>
+	
+				
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+</html>
